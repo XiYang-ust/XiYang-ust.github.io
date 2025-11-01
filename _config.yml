@@ -1,19 +1,19 @@
 # Basic Information 
-title: Your Name
-description: Personal Academic Homepage
-repository: yourusername/yourusername.github.io
+title: Xi Yang (杨曦)
+description:
+repository:
 google_analytics_id: # your google analytics id (optional)
 
 # Author Information
 author:
-  name             : "Your Name"
-  avatar           : "profile.jpg"
+  name             : "Xi Yang"
+  avatar           : "images/profile.jpg"
   bio              : "Postdoctoral Researcher at HKUST"
   location         : "Hong Kong"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
-  email            : "your.email@ust.hk"
+  googlescholar    : "https://scholar.google.com/citations?user=ddfKpX0AAAAJ&hl=en"
+  email            : "xiyang@ust.hk"
   researchgate     :  
   uri              :
   bitbucket        :
@@ -22,7 +22,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yourusername"
+  github           :
   google_plus      :
   keybase          :
   instagram        :
@@ -30,13 +30,13 @@ author:
   lastfm           :
   linkedin         : 
   dblp             : 
-  orcid            : "https://orcid.org/YOUR_ORCID_ID"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "yourusername"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
