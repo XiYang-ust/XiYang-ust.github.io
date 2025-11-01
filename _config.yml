@@ -75,14 +75,17 @@ analytics:
     tracking_id          : # your google analytics id
 
 
-# Site Author
+# Author Information
 author:
-  avatar           : "profile.jpg"
+  name             : "Xi Yang"
+  avatar           : "images/profile.jpg"
   bio              : "Postdoctoral Researcher at HKUST"
   location         : "Hong Kong"
   employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
-  email            : "your.email@ust.hk"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=ddfKpX0AAAAJ&hl=en"
+  email            : "xiyang@ust.hk"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -90,19 +93,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yourusername"
+  github           :
   google_plus      :
   keybase          :
   instagram        :
+  impactstory      : 
   lastfm           :
-  linkedin         :
-  orcid            : "https://orcid.org/YOUR_ORCID_ID"
+  linkedin         : 
+  dblp             : 
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    :
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "yourusername"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
