@@ -1,35 +1,20 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Basic Information 
+title: Your Name
+description: Personal Academic Homepage
+repository: yourusername/yourusername.github.io
+google_analytics_id: # your google analytics id (optional)
 
-# Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
-
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
-
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
-
-# Site Author
+# Author Information
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name             : "Your Name"
+  avatar           : "profile.jpg"
+  bio              : "Postdoctoral Researcher at HKUST"
+  location         : "Hong Kong"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+  email            : "your.email@ust.hk"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -37,21 +22,87 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "yourusername"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         : 
+  dblp             : 
+  orcid            : "https://orcid.org/YOUR_ORCID_ID"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "yourusername"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :
+
+
+# SEO Related (optional)
+google_site_verification :
+bing_site_verification   :
+baidu_site_verification  :
+
+# Site Settings
+locale                   : "en-US"
+title_separator          : "-"
+name                     : &name "Your Name"
+url                      : https://yourusername.github.io
+baseurl                  : ""
+repository               : "yourusername/yourusername.github.io"
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               : 
+
+# Google Scholar Stats
+google_scholar_stats_use_cdn : true
+
+# Analytics
+analytics:
+  provider               : "google-gtag"
+  google:
+    tracking_id          : # your google analytics id
+
+
+# Site Author
+author:
+  avatar           : "profile.jpg"
+  bio              : "Postdoctoral Researcher at HKUST"
+  location         : "Hong Kong"
+  employer         :
+  googlescholar    : "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+  email            : "your.email@ust.hk"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "yourusername"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         :
+  orcid            : "https://orcid.org/YOUR_ORCID_ID"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          : "yourusername"
   vine             :
   weibo            :
   xing             :
@@ -65,15 +116,12 @@ include:
   - _pages
   - files
 exclude:
-  - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - .github
   - CHANGELOG
   - Capfile
   - Gemfile
@@ -131,12 +179,7 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  style: compressed
 
 
 # Plugins
@@ -146,17 +189,16 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
 
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
